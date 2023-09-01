@@ -15,4 +15,4 @@ outputs:
     description: 'URL of the created discussion'
 runs:
   using: 'node12'
-  main: 'format-and-post.js' # The entry point script or code file
+  main: 'index.js' 
