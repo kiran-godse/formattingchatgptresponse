@@ -1,5 +1,7 @@
-const core = require('@actions/core');
 const github = require('@actions/github');
+const token = process.env.GITHUB_TOKEN;
+const octokit = github.getOctokit(token);
+
 
 async function run() {
   try {
